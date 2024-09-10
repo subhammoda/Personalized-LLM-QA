@@ -1,0 +1,6 @@
+python==3.10.15
+langchain==0.2.16
+python-dotenv==1.0.1
+streamlit==1.38.0
+tiktoken==0.7.0
+faiss-cpu==1.8.0
