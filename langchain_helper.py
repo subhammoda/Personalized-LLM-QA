@@ -64,7 +64,7 @@ class LangchainHelper():
         return rag_chain_with_source
 
 if __name__ == "__main__":
-    source_file = "codebasics_faqs.csv"
+    source_file = "sample.csv"
     lh = LangchainHelper(source_file)
     vecdb = lh.create_vector_db()
     rag_chain = lh.get_qa_chain()
